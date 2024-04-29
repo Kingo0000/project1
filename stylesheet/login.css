@@ -1,0 +1,202 @@
+.form_main {
+    width: 220px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.626);
+    padding: 30px 30px 30px 30px;
+    box-shadow: 0 3px 4px 4px rgba(0, 0, 0, 0.314);
+    backdrop-filter: blur (10px);
+    position: relative;
+    overflow: hidden;
+    position: relative;
+    top: 120px;
+    border-radius: 30px;
+    height: 300px;
+  }
+
+  body{ background-image: url(/images/bigbackground.jpeg.crdownload);}
+
+  .form_main2 {
+    width: 220px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.626);
+    padding: 30px 30px 30px 30px;
+    box-shadow: 0 3px 4px 4px rgba(0, 0, 0, 0.314);
+    position: relative;
+    backdrop-filter: blur (10px);
+    overflow: hidden;
+    position: relative;
+    top: 120px;
+    border-radius: 30px;
+    height: 350px;
+  }
+  
+  .btnbox{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .form_main::before {
+    position: absolute;
+    content: "";
+    width: 300px;
+    height: 300px;
+    /* background-color: rgb(209, 193, 255); */
+    background-color: rgba(46, 195, 245, 0.732);
+    transform: rotate(45deg);
+    left: -180px;
+    bottom: 30px;
+    z-index: 1;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.082);
+    top: 30px;
+  }
+  
+  .form_main2::before {
+    top: 55px;
+    position: absolute;
+    content: "";
+    width: 300px;
+    height: 300px;
+    /* background-color: rgb(209, 193, 255); */
+    background-color: rgba(46, 195, 245, 0.732);
+    transform: rotate(45deg);
+    left: -180px;
+    bottom: 30px;
+    z-index: 1;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.082);
+  }
+  
+
+  .heading {
+    font-size: 2em;
+    color: #2e2e2e;
+    /* color: rgba(91, 184, 214, 0.732); */
+    font-weight: 700;
+    margin: 5px 0 10px 0;
+    z-index: 2;
+  }
+  
+  .inputContainer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    margin-top: 20px;
+  }
+  
+  .inputIcon {
+    position: absolute;
+    left: 3px;
+  }
+  
+  .inputField {
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    /* border-bottom: 2px solid rgb(173, 173, 173); */
+    border-bottom: 2px solid rgba(4, 36, 47, 0.292);
+    margin: 10px 0;
+    color: black;
+    font-size: .8em;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding-left: 30px;
+  }
+  
+  .inputField:focus {
+    outline: none;
+    border-bottom: 2px solid rgba(91, 184, 214, 0.732);
+  }
+  
+  .inputField::placeholder {
+    color: rgb(80, 80, 80);
+    font-size: 1em;
+    font-weight: 500;
+  }
+  
+  .button {
+    z-index: 2;
+    position: relative;
+    width: 120px;
+    border: none;
+    background-color: white;
+    /* background-color: rgb(162, 104, 255); */
+    height: 30px;
+    /* color: white; */
+    color: rgb(29, 152, 193);
+    font-size: .8em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+    margin: auto;
+    box-shadow: -3px 7px 6px 0 rgba(0, 0, 0, 0.376), 0 7px 30px 0 rgba(0, 0, 0, 0.286);
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 20px;
+    /* left: 35%; */
+  }
+  
+  .button:hover {
+    background-color: rgb(29, 152, 193);
+    color: white;
+    box-shadow: none;
+  }
+  
+  .forgotLink {
+    z-index: 2;
+    font-size: .7em;
+    font-weight: 500;
+    color: rgb(44, 24, 128);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+  }
+  
+  .Rbutton {
+    z-index: 2;
+    position: relative;
+    width: 120px;
+    border: none;
+    background-color: white;
+    /* background-color: rgb(162, 104, 255); */
+    height: 30px;
+    /* color: white; */
+    color: rgb(29, 152, 193);
+    font-size: .8em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+    margin: auto;
+    box-shadow: -3px 7px 6px 0 rgba(0, 0, 0, 0.376), 0 7px 30px 0 rgba(0, 0, 0, 0.286);
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 20px;
+    /* left: 35%; */
+  }
+  
+  .Rbutton:hover {
+    background-color: rgb(29, 152, 193);
+    color: white;
+    box-shadow: none;
+  }
+  
+  @media only screen and (min-width:550px){
+    body{ background-image: url(/images/bigbackground.jpeg.crdownload);}
+  }

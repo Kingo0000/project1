@@ -1,0 +1,180 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    box-shadow: 0 1px 2px 3px rgba(0, 0, 0, 0.281);
+    width: 100%;
+    height: 70px;
+    background-image: linear-gradient(to left, rgba(42, 160, 226, 1), white, rgba(42, 160, 226, 1));
+    /* background-image: linear-gradient(to left, rgb(8, 8, 8), white, rgb(11, 12, 12)); */
+    background-size: cover;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+
+.text{
+    position: relative;
+    height: 60px;
+    top: 25px;
+    width: 75%;
+    font-size: 150%;
+}
+
+.address{
+    position: relative;
+    width: 100%;
+    height: 130px;
+    margin-top: 20px;
+    box-shadow: 0 1px 4px 4px rgba(0, 0, 0, 0.314);
+}
+
+
+.orderbtn{
+    background-color: rgba(42, 160, 226, 1);
+    /* background-color: rgba(0, 0, 0, 0.888); */
+    position: relative;
+    top: 30px;
+    left: 25%;
+    height: 45px;
+    width: 50%;
+    border-radius: 12px; 
+    color: white;
+    border: none;
+    box-shadow: -3px 7px 6px 0 rgba(0, 0, 0, 0.419), 0 7px 30px 0 rgba(0, 0, 0, 0.374);
+    margin-bottom: 50px;
+}
+
+.orderbtn:hover{
+    box-shadow: none;
+    background-color: rgb(14, 62, 89)
+}
+
+.i{
+    position: relative;
+    left: 5%;
+    font-size: xx-large;
+    top: -10px;
+    color: rgba(0, 0, 0, 0.735);
+}
+
+.purchase{
+    font-size: 25px;
+    position: relative;
+    top: -15px;
+    left: 10%;
+    width: 100%;
+}
+
+
+.i2{
+    font-size: 25px;
+}
+
+.i3{
+    color: rgba(0, 0, 0, 0.611);
+    position: relative;
+    font-size: 30px;
+    left: 40px;
+}
+
+.name{
+    position: relative;
+    top: 20px;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 25px;
+    font-weight: lighter;
+    width: 60%;
+  }
+  
+  .describe{
+    position: relative;
+    top: 30px;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 25px;
+    width: 50%;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.649);
+  }
+  
+  .image{
+    width: 40%;
+    height: 120px;
+    position: relative;
+    left: 60%;
+    top: -40px;
+  }
+  
+  /* .second{
+    top: -100px;
+  } */
+  
+  .price{
+    position: relative;
+    top: -80px;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 25px;
+    width: 50%;
+    font-weight: lighter;
+    color:  rgba(0, 0, 0, 0.649);
+  }
+
+.place2{
+    font-weight: lighter;
+    font-size: 20px;
+    position: relative;
+    top: -3px;
+    left: 40px;
+}
+
+.place{
+    font-size: 15px;
+    position: relative;
+    top: -5px;
+}
+
+.two, .three {
+    margin-top: 40px;
+}
+
+.textp{
+    margin-top: 120px;
+    position: relative;
+    left: 30%;
+    width: 60%;
+    font-size: larger;
+}
+
+.textd{
+    margin-top: 60px;
+    position: relative;
+    left: 10%;
+    width: 60%;
+    font-size: larger;
+}
+
+
+.amount{
+    border: 2px solid rgb(255, 255, 255);
+    position: relative;
+    width: 60%;
+    left: 20%;
+    height: 40px;
+    top: 10px;
+    border-radius: 12px;
+    box-shadow: -3px 7px 6px 0 rgba(0, 0, 0, 0.419), 0 7px 30px 0 rgba(0, 0, 0, 0.374);
+}
+
+@media only screen and (min-width:550px) {
+    .address{width: 500px;height: 140px; margin: auto; margin-top: 30px;}
+    .textd{ margin: auto; position: relative; margin-top: 30px;}
+    .amount{width: 400px; margin: auto; left: 0px;}
+    .orderbtn{ width: 400px; margin: auto; position: relative; margin-bottom: 40px; left: 30%;}
+}

@@ -1,0 +1,357 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    position: fixed;
+    box-shadow: 0 1px 4px 7px rgba(0, 0, 0, 0.281);
+    width: 100%;
+    height: 70px;
+    background-image: linear-gradient(to left, rgba(42, 160, 226, 1), white, rgba(42, 160, 226, 1));
+    background-size: cover;
+    z-index: 1;
+    top: 0px;
+}
+
+.text{
+    position: relative;
+    height: 60px;
+    top: 25px;
+    width: 75%;
+    font-size: 150%;
+    left: 40%;
+}
+
+.address{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin-top: 120px;
+    box-shadow: 0 1px 4px 4px rgba(0, 0, 0, 0.314);
+}
+
+.promo{
+    margin-top: 50px;
+    width: 70%;
+    height: 60px;
+    border-radius: 12px;
+    /* left: 15%; */
+    text-align: center;
+    font-size: larger;
+    border: none;
+}
+
+.three{
+    height: 100px;
+    margin-top: 30px;
+    /* background-image: linear-gradient(to left, rgba(42, 160, 226, 1), white, rgba(42, 160, 226, 1)); */
+    background-color: rgb(55, 172, 245) 0%;
+    background-size: cover;
+}
+
+.orderbtn{
+    background-color: rgba(42, 137, 226, 0.742);
+    position: relative;
+    top: 40px;
+    left: 20%;
+    height: 45px;
+    width: 60%;
+    border-radius: 12px; 
+    color: white;
+    border: none;
+    box-shadow: -3px 7px 6px 0 rgba(0, 0, 0, 0.419), 0 7px 30px 0 rgba(0, 0, 0, 0.374);
+    margin-bottom: 70px;
+}
+
+.orderbtn:hover{
+    box-shadow: none;
+    color: rgba(42, 137, 226, 0.742);
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.484);
+}
+
+
+
+.delivery{
+    position: relative;
+    top: 15px;
+    left: 15%;
+    width: 60%;
+    display: flex;
+}
+
+.feedback{
+    position: relative;
+    left: 15%;
+    width: 70%;
+    top: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.561);
+    border-radius: 10px;
+}
+
+.i{
+    position: relative;
+    left: -30%;
+    font-size: xx-large;
+    top: -10px;
+}
+
+.checkout{
+    font-size: larger;
+    position: relative;
+    top: -10px;
+    left: -20%;
+}
+
+.fa-phone, .promo{
+    position: relative;
+    font-size: large;
+    top: 20px;
+    color: rgba(0, 0, 0, 0.734);
+}
+
+.input{
+    position: relative;
+    top: 30px;
+    color: black;
+    border: 1px solid black;
+    height: 30px;
+    margin: auto;
+    width: 90%;
+    border-radius: 4px;
+    /* left: 20%; */
+}
+
+.i2{
+    font-size: 30px;
+}
+
+.place{
+    font-size: 15px;
+    position: relative;
+    top: -5px;
+}
+
+.method{
+    position: relative;
+    top: 30px;
+    display: flex;
+    width: 40%;
+    left: 15%;
+}
+
+.twoo{
+    width: 90%;
+    top: 50px;
+}
+
+.both{width: 270px; 
+    height: fit-content;
+     margin: auto;
+    }
+
+.notifications-container {
+        /* display: none; */
+        width: 320px;
+        height: auto;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin: auto;
+        z-index: 1;
+        margin-top: 20px;
+        border-radius: 12px;
+      }
+      
+      .flex {
+        display: flex;
+      }
+      
+      .flex-shrink-0 {
+        flex-shrink: 0;
+      }
+      
+      .success {
+        margin-top: 50%;
+        box-shadow: 0 1px 4px 4px rgba(0, 0, 0, 0.314);
+        padding: 1rem;
+        border-radius: 0.375rem;
+        background-color: rgb(240, 249, 253);
+      }
+      
+      .succes-svg {
+        color: rgb(74, 195, 222);
+        width: 1.25rem;
+        height: 1.25rem;
+      }
+      
+      .success-prompt-wrap {
+        margin-left: 0.75rem;
+      }
+      
+      .success-prompt-heading {
+        font-weight: bold;
+        color: rgb(22, 77, 101);
+      }
+      
+      .success-prompt-prompt {
+        margin-top: 0.5rem;
+        color: rgb(21, 105, 128);
+      }
+      
+      .success-button-container {
+        display: flex;
+        margin-top: 0.875rem;
+        margin-bottom: -0.375rem;
+        margin-left: -0.5rem;
+        margin-right: -0.5rem;
+      }
+      
+      .success-button-main {
+        padding-top: 0.375rem;
+        padding-bottom: 0.375rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        background-color: #1ea9c9;
+        color: white;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        font-weight: bold;
+        border-radius: 0.375rem;
+        border: none
+      }
+      
+      .success-button-main:hover {
+        color: #1ea9c9;
+        background-color: white;
+      }
+      
+      .success-button-secondary {
+        padding-top: 0.375rem;
+        padding-bottom: 0.375rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        margin-left: 0.75rem;
+        color: #1ea9c9;
+        background-color: white;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        border-radius: 0.375rem;
+        border: none;
+      }
+    
+      
+      
+      @media only screen and (min-width:550px){
+        .notifications-container{width: 400px; height: 200px;}
+      }
+
+      .visa-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 300px;
+  height: 150px;
+  background-image: radial-gradient(
+    circle 897px at 9% 80.3%,
+    rgb(55, 172, 245) 0%,
+    rgba(247, 245, 241, 0.9) 100.2%
+  );
+  border-radius: 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  gap: 15px;
+  margin: auto;
+      box-shadow: 0 1px 4px 4px rgba(0, 0, 0, 0.195);
+}
+.logoContainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: fit-content;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+.svgLogo {
+  height: 40px;
+  width: auto;
+}
+.inputstyle::placeholder {
+  color: #ffffff;
+}
+.inputstyle {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  caret-color: red;
+  font-size: 13px;
+  height: 25px;
+  letter-spacing: 1.5px;
+}
+.number-container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+#cardNumber {
+  width: 100%;
+  height: 25px;
+}
+.name-date-cvv-container {
+  width: 100%;
+  height: 25px;
+  display: flex;
+  gap: 10px;
+}
+.name-wrapper {
+  width: 60%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.expiry-wrapper,
+.cvv-wrapper {
+  width: 30%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.cvv-wrapper {
+  width: 10%;
+}
+#expiry,
+#cvv {
+  width: 100%;
+}
+.input-label {
+  font-size: 8px;
+  letter-spacing: 1.5px;
+  color: #e2e2e2;
+  width: 100%;
+}
+
+
+@media only screen and (min-width:550px) {
+  body {background-image: url(/images/bigbackground.jpeg.crdownload);}
+    .header{ height: 80px;  background-image: linear-gradient(to right, rgba(254, 254, 254, 0.704), rgba(252, 252, 252, 0.493)); box-shadow: 0 1px 2px 3px rgba(0, 0, 0, 0.281); width: 500px; margin: auto; position: relative; margin-top: 30px;}
+    .address{width: 500px;height: 160px; margin: auto; margin-top: 20px;}
+    .input{width: 200px; position: relative; margin: auto; left: 0px;}
+    .both{width: 270px; height: fit-content; margin: auto;}
+    .fa-gift, .promo{ left: 0px;}
+    .delivery{width: 40%;}
+    .three{ width: 500px; height: 60px; margin: auto; margin-top: 50px; color: rgb(29, 152, 193); background-image: linear-gradient(to right, white, white); box-shadow: 0 1px 2px 3px rgba(0, 0, 0, 0.281);}
+    .orderbtn{width: 200px; margin: auto; top: 150px; position: relative; margin-bottom: 70px; color: rgb(29, 152, 193); background-color: white;}
+    .visa-card{position: relative; top: 90px;
+    }
+}

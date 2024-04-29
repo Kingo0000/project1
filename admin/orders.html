@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+        <link rel="icon" href="/images/water.jpeg">
+        <link rel="stylesheet" href="/stylesheet/admin.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+</head>
+<body>
+    <h1>Orders</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Order ID</th>
+                <th>Created At</th>
+                <th>User ID</th>
+                <th>Username</th>
+                <th>Phone Number</th>
+                <th>Address</th>
+                <th>Total Amount</th>
+                <th>Product Name</th>
+                <th>Product Price</th>
+                <th>Product Description</th>
+                <th>Product Quantity</th>
+            </tr>
+        </thead>
+        <tbody id="orders-container">
+            <!-- Orders will be dynamically added here -->
+        </tbody>
+    </table>
+    <script src="/script/order.js"></script>
+</body>
+</html>

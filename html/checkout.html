@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Checkout</title>
+    <link rel="stylesheet" href="/stylesheet/checkout.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.5.1-web/css/all.css">
+    <link rel="icon" href="/images/water.jpeg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+    
+</head>
+<body>
+<div class="body">
+
+   <div class="header">
+        <div class="text"> 
+            <span class="i">
+                <i class="fa-solid fa-spinner"></i>
+            </span>
+            <span class="checkout">CHECKOUT</span> 
+         </div>
+     </div>
+
+    <div class="address">
+        <span class="delivery">
+            DELIVERY ADDRESS:
+        </span>
+        <textarea class="feedback" name="address" id="" cols="30" rows="4" placeholder="Type in your address"></textarea>
+    </div>
+    <div class="both">
+   <i class="fa-solid fa-phone"></i>
+   <span class="promo"> Phone number? </span>
+   <input type="text" class="input" name="phonenumber"></div>
+    <div class="price three">       
+        <span class="method"> PAYMENT METHOD: </span>
+
+          <div class="visa-card">
+  <div class="logoContainer"> Pay with card
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      x="0px"
+      y="0px"
+      width="23"
+      height="23"
+      viewBox="0 0 48 48"
+      class="svgLogo"
+    >
+      <path
+        fill="#ff9800"
+        d="M32 10A14 14 0 1 0 32 38A14 14 0 1 0 32 10Z"
+      ></path>
+      <path
+        fill="#d50000"
+        d="M16 10A14 14 0 1 0 16 38A14 14 0 1 0 16 10Z"
+      ></path>
+      <path
+        fill="#ff3d00"
+        d="M18,24c0,4.755,2.376,8.95,6,11.48c3.624-2.53,6-6.725,6-11.48s-2.376-8.95-6-11.48 C20.376,15.05,18,19.245,18,24z"
+      ></path>
+    </svg>
+  </div>
+  <div class="number-container">
+    <label class="input-label" for="cardNumber">CARD NUMBER</label>
+    <input
+      class="inputstyle"
+      id="cardNumber"
+      placeholder="XXXX XXXX XXXX XXXX"
+      name="cardNumber"
+      type="text"
+    />
+  </div>
+
+  <div class="name-date-cvv-container">
+    <div class="name-wrapper">
+      <label class="input-label" for="holderName">CARD HOLDER</label>
+      <input
+        class="inputstyle"
+        id="holderName"
+        placeholder="NAME"
+        type="text"
+      />
+    </div>
+
+    <div class="expiry-wrapper">
+      <label class="input-label" for="expiry">VALID THRU</label>
+      <input class="inputstyle" id="expiry" placeholder="MM/YY" type="text" />
+    </div>
+    <div class="cvv-wrapper">
+      <label class="input-label" for="cvv">CVV</label>
+      <input
+        class="inputstyle"
+        placeholder="***"
+        maxlength="3"
+        id="cvv"
+        type="password"
+      />
+    </div>
+  </div>
+</div>
+
+    <button class="orderbtn">
+         <span class="i2">
+            <i class="fa-solid fa-spinner"></i>
+        </span> 
+        <span class="place"> PLACE ORDER</span>
+    </button>
+</div>
+</div>
+
+<div class="notifications-container" style="display: none;">
+    <div class="success">
+      <div class="flex">
+        <div class="flex-shrink-0">
+          
+          <svg class="succes-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+          </svg>
+        </div>
+        <div class="success-prompt-wrap">
+          <p class="success-prompt-heading">Order completed
+          </p><div class="success-prompt-prompt">
+            <p>You're happy now? Does this impulsive action is really going to satisfy you? Don't answer me, answer yourself. Anyway, your Order is on it's way.</p>
+          </div>
+            <div class="success-button-container">
+              <a href="rate.html">
+              <button type="button" class="success-button-main">Rate Us</button></a>
+              <a href="home.html">
+              <button type="button" class="success-button-secondary">Dismiss</button></a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src="/script/checkout.js"></script>
+</body>
+</html>

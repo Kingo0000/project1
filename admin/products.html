@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="/stylesheet/admin.css">
+</head>
+<body>
+    
+    <form class="form" action="http://localhost:3000/products" method="post" enctype="multipart/form-data" id="productForm">
+        <label for="ptype"> Product Type: </label><br>
+        <input type="text" name="type" id="ptype"> *flavored or sparkling<br><br>
+
+        <label for="pname"> Product Name: </label><br>
+        <input type="text" name="name" id="pname">*<br><br>
+
+
+        <label for="pvary"> Product description: </label><br>
+        <input type="text" name="description" id="pvary">*12 X 500ml or 12 X 1L<br><br>
+
+        <label for="imageInput"> Upload product image: </label><br>
+        <img id="imagePreview" src="#" alt="Preview" style="max-width: 200px; max-height: 200px; display: none;">
+        <br><br>
+        <input type="file" name="image" id="imageInput" accept="image/*" onchange="previewImage(event)">
+        <br><br>
+
+        <label for="pprice"> Product price: </label><br>
+        <input type="text" name="price" id="pprice" >*<br><br>
+
+        <label for="pquantity"> Available product quantity: </label><br>
+        <input type="number" name="quantity" id="pquantity">* <br><br>
+
+        <input type="submit" class="submit">
+
+    </form>
+
+    
+    <script src="/script/admin.js"></script>
+</body>
+</html>
