@@ -44,21 +44,21 @@ header{
 .midtext{
     position: relative;
     width: 100%;
-    height: 70px;
+    height: 80px;
     margin-top: 20px;
     box-shadow: 0 1px 4px 4px rgba(0, 0, 0, 0.314);
 }
 
 .middtext{
-    font-size: large;
+    font-size: 130%;
     font-weight: 100;
     letter-spacing: 1px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    top: 8px;
+    top: 5px;
     position: relative;
     width: 80%;
     height: 80px;
-    left: 10px;
+    left: 15%;
     color: rgba(0, 0, 0, 0.693);
 }
 
@@ -97,15 +97,6 @@ header{
     border-radius: 22px;
 }
 
-.img4{
-    position: relative;
-    width: 205px;
-    height: 200px;
-    top: 15px;
-    left: 90px;
-    border-radius: 22px;
-}
-
 .midtext2{
     position: relative;
     width: 100%;
@@ -115,14 +106,14 @@ header{
 }
 
 .middtext2{
-    font-size: large;
+    font-size: 130%;
     font-weight: 100;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    top: 10px;
+    top: 5px;
     position: relative;
     width: 80%;
-    height: 70px;
-    left: 10px;
+    height: 80px;
+    left: 15%;
     color: rgba(0, 0, 0, 0.693);
 }
 
@@ -730,21 +721,16 @@ background-color: rgba(42, 137, 226, 0.742);
 color: white;
 }
 
-.img5, .img6 {display: none;}
-
-
- @media only screen and (min-width:550px) {
-     .body {background-image: url(/images/bigbackground.jpeg.crdownload);}
-    /*header{ height: 120px;  background-image: linear-gradient(to right, rgba(254, 254, 254, 0.18), rgb(252, 252, 252), rgba(255, 255, 255, 0.327)); box-shadow: 0 1px 2px 3px rgba(0, 0, 0, 0.281); width: 450px; margin: auto; position: relative; margin-top: 30px;}
-    .text{height: 120px; top: 40px; font-size: xx-large; width: 90%;}
+@media only screen and (min-width:550px) {
+    body {background-image: url(/images/bigbackground.jpeg.crdownload);}
+    header{ height: 80px;  background-image: linear-gradient(to right, rgba(254, 254, 254, 0.18), rgb(252, 252, 252), rgba(255, 255, 255, 0.327)); box-shadow: 0 1px 2px 3px rgba(0, 0, 0, 0.281); width: 450px; margin: auto; position: relative; margin-top: 30px;}
     .middle{ width: 450px; position: relative; margin: auto; margin-top: 30px; box-shadow: none; border-left: 2px solid black; border-right: 2px solid black; display: none;}
     .midtext{height: 80px; width: 450px; position: relative; margin: auto; margin-top: 30px; display: none;}
-    .list{width: 70%; margin: auto; position: relative; margin-top: 30px; height: 315px;}
-    .img1, .img2, .img3, .img4{ height: 280px; width: 280px;}
-    .midtext2{height: 120px; width: 650px; position: relative; margin: auto; margin-top: 30px;}
+    .list{width: 450px; margin: auto; position: relative; margin-top: 30px; }
+    .midtext2{height: 80px; width: 450px; position: relative; margin: auto; margin-top: 30px;}
     .productbtn{height: 40px; margin: auto; left: 42%; width: 200px; margin-top: 20px; background-color: rgba(37, 155, 194, 0.732);}
     .side_navigation{width: 430px; position: relative; left: 3%; visibility: visible; top: 500px; background-color: rgba(251, 251, 251, 0.768); backdrop-filter: blur (10px);}
-    .col{visibility: hidden;} */
+    .col{visibility: hidden;}
     .search{width: 450px; margin: auto; margin-top: 60px; left: 0px; display: none;}
     .btn1{margin: auto;}
     .btn{margin: auto; width: 450px; margin-top: 80px;}
@@ -753,11 +739,7 @@ color: white;
     .sidetwo{ top: 30px; left: -7px; width: 450px; margin: auto;}
     .checkbox-wrapper-16 .checkbox-tile { width: 450px; margin: auto; margin-top: 30px;}
     .cartbtn2{width: 200px; margin: auto; position: relative; left: 40%; top: 70px;}
-    .middtext2{ height: 280px; top: 25px; font-size: xx-large; width: 100%; left: 0px;}
-    .side_navigation{width: 101%; overflow: hidden; position: relative; left: 0%; visibility: visible; top: 530px; background-color: rgba(251, 251, 251, 0.768); backdrop-filter: blur (10px); height: 80px; border-radius: 0%; box-shadow: 0 1px 4px 4px rgba(0, 0, 0, 0.314); display: flex; justify-content: space-around; border: none;}
-    .side_navigation li {width: 90px;}
-    .side_navigation a { font-size: 1.7rem;}
- } 
+ }
 
  @media only screen and (min-width:550px) {
   .pricee{width: 450px; margin: auto; height: 120px;}
@@ -771,19 +753,3 @@ color: white;
   .card{width: 450px; margin: auto; top: 50px;}
   .checkoutbtn{ position: relative; top: -15px;}
 } 
-
-@media only screen and (min-width:550px) {
-  header {height: 2.2cm; position: relative; background-image: linear-gradient(to right, white, white, white); color: rgb(64, 155, 216);}
-  .text{ top: 15px; font-size: 300%; left: 15%; text-shadow: 2px 2px 2px rgb(2, 22, 42); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-  .nav_icon{ display: none;}
-  .middle{height: 30rem; background-image: none; display: flex; justify-content: space-around; top: -70px;}
-  .img5{ width: 45%; display: block;position: relative;  left: 20px;}
-  .img6{ width: 45%; display: block; height: 21rem;}
-  .midtext{ width: 45%; position: absolute; top: 450px; z-index: 2; left: 52%; box-shadow: none;}
-  .middtext{ font-size: x-large; width: 100%; left: 8px;}
-  .midtext2{ display: none;}
-  .list{ position: relative; top: -50px; display: none;}
-  .productbtn{ display: none;}
-  .navigation-card{display: flex;}
-  .sidetwo{ display: none;}
-}
